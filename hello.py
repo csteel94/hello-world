@@ -25,6 +25,8 @@ print('My last print statement before I go for a run')
 
 print('This is another print statement... this time from Wednesday!!!!!')
 
+print('Last Wednesday evening greeting')
+
 
 
 
