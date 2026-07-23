@@ -27,6 +27,10 @@ print('This is another print statement... this time from Wednesday!!!!!')
 
 print('Last Wednesday evening greeting')
 
+print('First Thursday evening update')
+
+print('Second Thursday evening update')
+
 
 
 
