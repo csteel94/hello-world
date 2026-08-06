@@ -8,6 +8,15 @@ print('Hello world!')
 print('Learning Git!')
 print('This is my third change...')
 
+# name = input("What is your name? ")
+
+current_time = datetime.now()
+
+
+print('This is another Sunday evening print statement!')
+
+print(f'The time is {current_time}')
+
 print('Some more functionality for a Sunday evening before I go for a run!!')
 
 print('My last print statement before I go for a run')
@@ -28,7 +37,7 @@ print('Third saturday evening update')
 
 print('FOURTH Saturday evening update')
 
-
+print('First Sunday evening update...........')
 
 
 
