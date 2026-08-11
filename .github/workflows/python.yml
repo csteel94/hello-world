@@ -18,10 +18,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install pytest
+        run: pip install pytest
+
       - name: Run unit tests
-        run: |
-          python -m pytest
+        run: python -m pytest
 
       - name: Build Docker image
-        run: |
-          docker build -t hello-world .
+        run: docker build -t hello-world .
