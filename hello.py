@@ -45,6 +45,8 @@ print('Friday evening update.......!')
 
 print('Minor change')
 
+print('Another small Friday evening update!')
+
 
 
 
