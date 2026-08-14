@@ -41,6 +41,8 @@ print('First Sunday evening update...........')
 
 print('This is an update on Tuesday evening!')
 
+print('Friday evening update.......!')
+
 
 
 
