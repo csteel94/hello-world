@@ -1,16 +1,23 @@
-from datetime import datetime
+from datetime import datetime, timezone
+import logging
 
 
+logging.basicConfig(level=logging.ERROR)
 
-
+logger = logging.getLogger(__name__)
 
 print('Hello world!')
 print('Learning Git!')
 print('This is my third change...')
 
+logger.debug("Debug message")
+logger.info("Application started")
+logger.warning("This is a warning")
+logger.error("This is an error")
+
 # name = input("What is your name? ")
 
-current_time = datetime.now()
+current_time = datetime.now(timezone.utc)
 
 
 print('This is another Sunday evening print statement!')
@@ -47,6 +54,8 @@ print('Minor change')
 
 print('Another small Friday evening update!')
 
+def greet(name: str) -> str:
+	return f"Hello, {name}!"
 
 
 
